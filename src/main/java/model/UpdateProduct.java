@@ -3,7 +3,7 @@ package model;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;
 
-
+//
 public class UpdateProduct {
 
         @NotBlank
