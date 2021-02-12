@@ -6,9 +6,9 @@ import java.util.List;
 
 
 public class CustomPage<T> {
-    private final long page;
-    private final long size;
-    private final long totalPages;
+    private final int page;
+    private final int size;
+    private final int totalPages;
     private final List<T> content;
 
     public CustomPage(Page<?> page, List<T> content) {

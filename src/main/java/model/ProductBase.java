@@ -1,10 +1,10 @@
 package model;
 
 public class ProductBase {
-    private long id;
+    private Long id;
     private String name;
     private String description;
-    private long price;
+    private Long price;
 
 
 
