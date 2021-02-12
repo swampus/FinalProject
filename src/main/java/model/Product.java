@@ -28,7 +28,7 @@ public class Product {
     @Column(name = "modified_date")
     @LastModifiedDate
     private long modifiedDate;
-
+//
     public Product(Long id, String name, String description, Long price, long createdDate, long modifiedDate) {
         this.id = id;
         this.name = name;

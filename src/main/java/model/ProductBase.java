@@ -1,5 +1,5 @@
 package model;
-
+//
 public class ProductBase {
     private Long id;
     private String name;
